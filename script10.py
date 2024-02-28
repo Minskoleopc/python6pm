@@ -68,7 +68,7 @@ for x in students:
 
 print(total/len(students))
 
-
+# loops , list , dictionary
 
 
 
