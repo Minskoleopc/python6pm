@@ -1,3 +1,5 @@
+# list / dictionary 
+
 # program 1
 # upper()
 first_name = "chinmay"
@@ -71,6 +73,74 @@ print(e16)
 
 e17 = e15.isalnum()
 print(e17)
+
+e18 = "hello"
+e19 = "1234"
+e20 = "h123"
+e21 = "h12#"
+print(e19.isalnum())
+print(e20.isalnum())
+print(e21.isalnum())
+
+
+# revision
+first_name = "chinmay"
+
+# print(first_name.upper())
+# print(first_name.lower())
+# print(first_name.isupper())
+# print(first_name.islower())
+
+
+# program 2
+first_name = " chinmay "
+print(len(first_name))
+#print(len(first_name.rstrip()))
+#print(len(first_name.lstrip()))
+#print(len(first_name.strip()))
+
+#program 3
+last_name = "deshpande"
+print(last_name.startswith("d"))
+print(last_name.startswith("de"))
+print(last_name.startswith("De"))
+
+print(last_name.endswith('e'))
+print(last_name.endswith('de'))
+print(last_name.endswith('Nde'))
+
+
+# program 4
+marks  = "123"
+print(marks.isdigit()) # 0-9
+print(marks.isalpha()) # A-Z a -z
+print(marks.isalnum())
+print(type(marks))
+
+# program 5
+full_name = " a"
+e3 = full_name.isspace()
+print(e3)
+
+# program 6
+firstN =  "chinmay"
+e4 = firstN.capitalize()
+print(e4)
+
+e4 = "I Am Learning Javascript"
+print(e4.istitle())
+
+# program 7
+info = ["chinmay","deshpande","77019292441"]
+e5 = "@".join(info)
+print(e5)
+
+# program 8
+
+email = "chinmay@gmail.com"
+e6 = email.split('@')  # ["chinmay","gmail.com"]
+print(e6)
+
 
 
 
