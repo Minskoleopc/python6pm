@@ -66,8 +66,8 @@ z = addElement(setA)
 print(z)
 
 # function as parameter and function as return type
-
-
+# teacher     --------> 30 k    ----------> living style 30k
+# instagram   --------> 12 lpa  ----------> reels   
 
 
 
