@@ -42,3 +42,29 @@ print(transactions)
 print(["withdrawl" if x < 0 else "deposit" for x in d])
 print(list(filter(lambda x : x > 0 , d)))
 print(list(filter(lambda x : x < 0 , d)))
+
+# decorator , recursive function , generators , modules
+
+
+# collection --- 
+
+# names = ["chinmay","sarika","poorva","mayuri"]
+# info = {
+#     "firstName":"chinmay",
+#     "lastName":"deshpande"
+# }
+# tupleA = (22,33,44)
+# set = {11,22,33,55,66,77}
+# firstName = "chinmay"
+
+# CRUD operation
+# Methods
+# Loop
+# element present , duplicate
+
+
+
+
+
+
+
