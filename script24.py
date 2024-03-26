@@ -108,7 +108,42 @@ print(sarika.dname)
 sarika.displayMName()
 sarika.displayDName()
 
-
-
-
 # multiple inheritance
+class Mother:
+    def __init__(self,fn,ln):
+        print("mother constructor called")
+        self.firstName = fn 
+        self.lastName  = ln
+
+    def displayName(self):
+        print(self.firstName + self.lastName)
+
+class Father:
+    def __init__(self,fn,ln):
+        print("father constructor called .....")
+        self.firstName = fn 
+        self.lastName  = ln
+
+    def displayName(self):
+        print(self.firstName + self.lastName)
+
+
+class Son(Mother,Father):
+    def __init__(self, fn, ln , ssn):
+        super().__init__(fn, ln)
+        self.sname = ssn
+
+    def dislaySname(self):
+        print(self.sname + self.lastName)
+
+
+chinmay = Son("shirish","deshpande","chinmay")
+
+        
+
+
+
+
+
+
+
