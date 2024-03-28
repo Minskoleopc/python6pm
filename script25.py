@@ -102,6 +102,94 @@ call_talk(b)
 call_talk(c)
 
 
+#-----------------------------------------------------
+print("hello" + "bye")
+print(12 + 4)
+print([11,22,33]+ [66,77,88])
+
+# class Bookx:
+#     def __init__(self,pages):
+#         self.pages = pages
+
+#     def __add__(self,other):
+#         return self.pages + other.pages
+        
+
+# class Booky:
+#     def __init__(self,pages):
+#         self.pages = pages
+        
+#     def __add__(self,other):
+#         return self.pages + other.pages
+
+# ramayan  = Bookx(120)
+# mahabharat =  Booky(45)
+# #print(ramayan.pages + mahabharat.pages)
+# print(ramayan + mahabharat)
+# print(mahabharat + ramayan)
+
+
+# program 2
+# print(4 > 2)
+
+# class Bookx:
+#     def __init__(self,pages):
+#         self.pages = pages
+#     def __gt__(self,others):
+#         return self.pages > others.pages
+
+# class Booky:
+#     def __init__(self,pages):
+#         self.pages = pages
+#     def __lt__(self,others):
+#         return self.pages > others.pages
+
+# ram = Bookx(120)
+# sham = Booky(130)
+
+# print(ram.pages > sham.pages)
+# print(ram > sham)
+# print(ram < sham)
+
+class WorkBank:
+    def loan(self):
+        print("I am loan from WB")
+    def save(self):
+        print('I am save from WB')
+
+class SBI(WorkBank):
+    def loan(self):
+        print("I am loan from SBI")
+        super().loan()
+    def save(self):
+        print('I am save from SBI')
+        super().loan()
+    
+
+class PNB(WorkBank):
+    def loan(self):
+        print("I am loan from SBI")
+        super().loan()
+    def save(self):
+        print('I am save from SBI')
+        super().save()
+      
+a = SBI()
+a.loan()
+a.save()
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
